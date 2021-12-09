@@ -1,0 +1,75 @@
+Urls to fetch data for dropdown box for a form to purchase to train ticket
+http://localhost:5000/info/<Object Id from Mongo DB>/Stations
+http://localhost:5000/info/<Object Id from Mongo DB>/Start_End
+http://localhost:5000/info/<Object Id from Mongo DB>/Trains
+
+
+//Train Details
+{
+    "_id": {
+        "$oid": "<Object Id from Mongo DB>"
+    },
+    "Stations": [{
+        "stationId": " ",
+        "name": " "
+    }, {
+        "stationId": " ",
+        "name": " "
+    }, {
+        "stationId": " ",
+        "name": " "
+    }, {
+        "stationId": " ",
+        "name": ""
+    }, {
+        "stationId": " ",
+        "name": " "
+    }],
+    "Trains": [{
+        "TrainNo": " ",
+        "TrainName": " "
+    }, {
+        "TrainNo": " ",
+        "TrainName": " "
+    }, {
+        "TrainNo": " ",
+        "TrainName": " "
+    }, {
+        "TrainNo": " ",
+        "TrainName": " "
+    }],
+    "Start_End": [{
+        "id": " ",
+        "start": " ",
+        "end": " ",
+        "price": 300
+    }, {
+        "id": " ",
+        "start": " ",
+        "end": " ",
+        "price": 200
+    }, {
+        "id": " ",
+        "start": " ",
+        "end": " ",
+        "price": 500
+    }]
+}
+
+
+
+//Person
+{
+  "name":" ",
+  "contactNo":" ",
+  "email":" "
+}
+
+
+//Government Worker
+{
+  "name":" ",
+  "nicNo":" ",
+  "contactNo":" ",
+  "email":" "
+}
